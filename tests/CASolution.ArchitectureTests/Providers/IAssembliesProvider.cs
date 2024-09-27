@@ -16,6 +16,13 @@ namespace CASolution.ArchitectureTests.Providers
         public Assembly InfrastructureServicesAssembly { get; set; }
         public Assembly InfrastructurePersistenceAssembly { get; set; }
 
+        public string DomainNamespace { get; set; }
+        public string ApplicationNamespace { get; set; }
+        public string PresentationNamespace { get; set; }
+        public string ContractsNamespace { get; set; }
+        public string InfrastructureServicesNamespace { get; set; }
+        public string InfrastructurePersistenceNamespace { get; set; }
+
 
     }
 }
